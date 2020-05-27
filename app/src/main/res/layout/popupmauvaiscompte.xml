@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="326dp"
+    android:layout_height="190dp"
+    android:layout_marginTop="150dp"
+    android:background="@drawable/popupshape"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#007857" />
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="45dp"
+        android:background="@drawable/titlepopupshape"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/teteConnection"
+        android:textAlignment="gravity"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whaou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/texteNonCompte"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/changerCompte"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/ouvrirNonCompte"
+        android:textColor="#666666"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/fermerChangerCompte"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/fermer"
+        android:textColor="#666666"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="140dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp" />
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.2" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="625dp">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="10pt"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonaccueil"
+                android:drawableTop="@drawable/ic_shopify_faae7065b7b351d28495b345ed76096c03de28bac346deb1e85db632862fd0e4"
+                android:onClick="page1"
+                android:paddingTop="25dp"
+                android:textSize="26sp"
+                android:text="@string/boutonaccueil1" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10pt"
+                android:background="@drawable/buttonaccueil"
+                android:drawableTop="@drawable/ic_23195"
+                android:onClick="page2"
+                android:paddingTop="25dp"
+                android:textSize="26sp"
+                android:text="@string/boutonaccueil2" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="10pt"
+                android:layout_marginTop="290dp"
+                android:background="@drawable/buttonaccueil"
+                android:drawableTop="@drawable/ic_imgbin_network_switch_computer_icons_computer_network_ethernet_others_tscndliqwdqibpuaz0qzxvjse"
+                android:onClick="page3"
+                android:paddingTop="0.1dp"
+                android:textSize="26sp"
+                android:text="@string/boutonaccueil3" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="290dp"
+                android:layout_marginEnd="10pt"
+                android:background="@drawable/buttonaccueil"
+                android:drawableTop="@drawable/ic_icon_info"
+                android:onClick="page4"
+                android:paddingTop="10dp"
+                android:textSize="26sp"
+                android:text="@string/boutonaccueil4" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="10pt"
+                android:layout_marginTop="560dp"
+                android:background="@drawable/buttonaccueil"
+                android:drawableTop="@drawable/ic_60961"
+                android:onClick="page6"
+                android:paddingTop="30dp"
+                android:textSize="26sp"
+                android:text="@string/boutonaccueil5" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="560dp"
+                android:layout_marginEnd="10pt"
+                android:background="@drawable/buttonaccueil"
+                android:drawableTop="@drawable/ic_flashlight"
+                android:onClick="page5"
+                android:textSize="26sp"
+                android:paddingTop="10dp"
+                android:text="@string/boutonaccueil6" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="830dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/buttonshape"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/dateaccueil"
+                android:textSize="26sp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/affichepopup"
+        android:gravity="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <!--  Pour faire disparaître la ligne rouge sous le editText  -->
+
+    <item>
+        <shape>
+            <solid android:color="#fff"/>
+            <size
+                android:width="270dp"
+                android:height="30dp"
+                />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="1.5dp"
+        android:left="1.5dp"
+        android:right="1.5dp">
+        <shape>
+            <solid android:color="#fff" />
+            <size
+                android:width="270dp"
+                android:height="30dp"
+                />
+        </shape>
+    </item>
+
+
+</layer-list>

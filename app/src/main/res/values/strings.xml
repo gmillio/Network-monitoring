@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="defaut">TextView</string>
+    <string name="version">Version: 1.8</string>
+
+
+
+    <!-- Page d'accueil-->
+
+    <string name="boutonaccueil1">Scan qr code</string>
+    <string name="boutonaccueil2">Rechercher un  \n switch</string>
+    <string name="boutonaccueil3">Consulter dernière recherche</string>
+    <string name="boutonaccueil4">Infos/ \n paramètres</string>
+    <string name="boutonaccueil5">Actualiser bdd</string>
+    <string name="boutonaccueil6">Allumer le \n flash</string>
+    <string name="dateaccueil">Base de donnée actualisée le \n jj/mm/aaaa à hh:mm</string>
+
+
+
+    <!-- Page scan qr code -->
+
+    <string name="pageQrCode">Pas de QR code détecté</string>
+
+
+
+    <!-- Page rechercher un switch -->
+
+    <string name="menuRechercheSwitch">Rechercher un switch par</string>
+    <string name="texteId">Entrez l\'ID du switch:</string>
+    <string name="texteMarque">Choisir la marque:</string>
+    <string name="texteBatiment">Choisir le batiment:</string>
+    <string name="indicateur">ID"   "Marque"        "IP"       "Salle</string>
+
+
+
+    <!-- Page infos/paramètres -->
+
+    <string name="testNotif">Test notif</string>
+    <string name="testJson">Test Json</string>
+    <string name="testPopup">Test popup</string>
+
+
+
+    <!-- Les popup -->
+
+    <string name="teteQrCode">QR code scanné</string>
+    <string name="teteConnection">Connection</string>
+    <string name="texteQrCode">Switch trouvé</string>
+    <string name="texteInternet">URL trouvé</string>
+    <string name="texteNonCompte">Votre compte n\'a pas les droits \n nécessaire pour afficher ce menu</string>
+    <string name="texteCompte">Vous devez être connecté pour \n accéder à ce menu</string>
+    <string name="ouvrirQrCode">Ouvrir</string>
+    <string name="ouvrirNonCompte">Changer de compte</string>
+    <string name="ouvrirCompte">Se connecter</string>
+    <string name="fermer">Fermer</string>
+
+
+
+
+    <!-- Page authentification -->
+
+    <string name="titreAuthentifier">S\'authentifier</string>
+    <string name="login">Login</string>
+    <string name="motDePasse">Mot de passe</string>
+    <string name="boutonAuthentifier">Se Connecter</string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication"
+    android:installLocation="auto"
+
+    android:targetSandboxVersion="1">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@drawable/ic_1127762_200"
+        android:label="Surveillance Réseau"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/network_security_config" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".pageQRcode"
+            android:label="SCAN DU QR CODE"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:value="barcode">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".pageRecherche"
+            android:label="RECHERCHER SWITCH"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".pageDocPrec"
+            android:label="DOC DERNIER SWITCH"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".pageInfosParam"
+            android:label="INFOS/PARAMETRES"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".pageSwitch1"
+            android:label="SWITCH"
+            android:parentActivityName=".pageRecherche"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".pageRecherche" />
+        </activity>
+
+        <activity
+            android:name=".pageAuthentification"
+            android:label="Authentification"
+            android:parentActivityName=".pageInfosParam"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".pageInfosParam" />
+        </activity>
+
+        <activity
+            android:name=".pageJsonTest"
+            android:label="JSON TEST"
+            android:parentActivityName=".pageInfosParam"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".pageInfosParam" />
+        </activity>
+
+        <activity
+            android:name=".pagepopup"
+            android:label="TEST POPUP"
+            android:parentActivityName=".pageInfosParam"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".pageInfosParam" />
+        </activity>
+    </application>
+</manifest>
